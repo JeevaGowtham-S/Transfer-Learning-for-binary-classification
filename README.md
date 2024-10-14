@@ -206,6 +206,7 @@ history = model.fit(
 ```
 #### Plotting Training VS Validation accuracy & loss
 ```python
+%matplotlib inline
 import matplotlib.pyplot as plt
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
@@ -216,31 +217,30 @@ epochs = range(len(acc))
 
 plt.plot(epochs, acc, 'r', label='Training accuracy')
 plt.plot(epochs, val_acc, 'b', label='Validation accuracy')
-plt.title('Name: JEEVAGOWTHAM S         Register Number: 212222230053     ')
+plt.title('Name: JEEVAGOWTHAM S      Register Number: 212222230053')
 plt.title('Training and validation accuracy')
 plt.legend(loc=0)
 plt.figure()
 plt.plot(epochs, loss, 'r', label='Training loss')
 plt.plot(epochs, val_loss, 'b', label='Validation Loss')
-plt.title('Name: JEEVAGOWTHAM S          Register Number: 212222230053    ')
 plt.title('Training and validation Loss')
 plt.legend(loc=0)
 plt.figure()
-
-
 plt.show()
 ```
 
 ## OUTPUT
 ### Training Accuracy, Validation Accuracy Vs Iteration Plot
-![Screenshot 2024-10-07 114421](https://github.com/user-attachments/assets/be7ff711-c247-436a-bc21-2fd127cb7da4)
+![image](https://github.com/user-attachments/assets/d79a7536-69a3-43f5-9f15-41a03f9e275e)
+
 
 </br>
 </br>
 </br>
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![Screenshot 2024-10-07 114429](https://github.com/user-attachments/assets/488b6c28-d478-4c58-971b-1748226f3c08)
+![image](https://github.com/user-attachments/assets/3f193155-08c0-4e80-a0f4-7784a70b731c)
+
 
 </br>
 </br>
